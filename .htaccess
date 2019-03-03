@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^accueil$ index.html
+
+Redirect 301 /index.html /accueil
