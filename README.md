@@ -1,2 +1,4 @@
 # website
-Repositery of the EnragedGamers' website
+
+EnragedGamers website ressources.
+
