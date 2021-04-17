@@ -26,6 +26,27 @@
     background-color:#910000;
 }
 
+/* purple */
+.btn-purple {
+    color: #fff !important;
+    background-color: #6c52a8;
+    border-color: #6c52a8;
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active {
+    color: #fff;
+    background-color: #614a97;
+    border-color: #564186;
+}
+.btn-purple.disabled:hover, .btn-purple.disabled:focus, .btn-purple.disabled:active, .btn-purple.disabled.active, .btn-purple[disabled]:hover, .btn-purple[disabled]:focus, .btn-purple[disabled]:active, .btn-purple[disabled].active, fieldset[disabled] .btn-purple:hover, fieldset[disabled] .btn-purple:focus, fieldset[disabled] .btn-purple:active, fieldset[disabled] .btn-purple.active {
+    color: #fff;
+    background-color: #6c52a8;
+    border-color: #6c52a8;
+}
+
+
 /* ==[ NAVIGATION BAR ]== */
 
 .navbar-inverse {
@@ -122,6 +143,78 @@ footer {
 }
 
 /* ===[ BODY ]=== */
+
+    /* ==[ SERVERS ]== */
+.section {
+    border-radius: 10px;
+    font-family: 'Inconsolata', monospace;
+
+    margin: 10px;
+    padding: 10px;
+
+    background-color: #000000;
+
+    color: #fff;
+}
+
+.section h2 {
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+
+    color: #fff;
+}
+
+.section .server-name, .section .server-gamemode {
+    text-align: right;
+}
+
+.server-players {
+    font-size: 30px;
+
+    text-align: center;
+    padding-top: 15px;
+}
+
+.csgo {
+    background-image: linear-gradient(
+        to left, transparent, #151516
+      ), url(images/cs_bg.jpg);
+    background-position: center;
+}
+
+.tf2 {
+    background-image: linear-gradient(
+        to left, transparent, #A04642
+      ), url(images/tf_bg.jpg);
+    background-position: center;
+}
+
+.sniper{
+	position: absolute;
+	top: 0px;
+	left: -50px;
+
+	background: url(images/sniper.png) no-repeat center;
+	background-size: cover;
+	width: 100px;
+	height: 108px;
+	transform: rotate(-45deg);
+	z-index: -1;
+}
+
+.csgo-cool{
+	position: absolute;
+    top: 25px;
+    right: -50px;
+
+	background: url(images/cs_cool.png) no-repeat center;
+	background-size: cover;
+	width: 100px;
+	height: 56px;
+
+    transform: rotate(90deg);
+	z-index: -1;
+}
 
     /* ==[ PAGE BODY ]== */
 
