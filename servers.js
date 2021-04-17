@@ -51,20 +51,21 @@ function addInfo(id, data) {
         child = getChild(section, "server-map");
         child.innerHTML = data["infos"]["map"];
 
-        console.log(child);
-
         child = getChild(section, "server-name");
         child.innerHTML = data["infos"]["hostname"];
 
         child = getChild(section, "server-gamemode");
         child.innerHTML = data["infos"]["gamedesc"];
 
+        child = getChild(section, "server-link");
+        child.setAttribute("href", "steam://connect/" + data["address"]);
 }
 
+/**
+ * Handle the draw to client
+ */
 function drawData(server_json) {
     let data = JSON.parse(server_json);
-
-    console.log(data);
 
     for(server in data) {
         addInfo(server, data[server]);

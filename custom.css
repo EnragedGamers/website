@@ -29,21 +29,21 @@
 /* purple */
 .btn-purple {
     color: #fff !important;
-    background-color: #6c52a8;
-    border-color: #6c52a8;
+    background-color: #23272A;
+    border-color: #23272A;
 }
 .btn-purple:hover,
 .btn-purple:focus,
 .btn-purple:active,
 .btn-purple.active {
     color: #fff;
-    background-color: #614a97;
-    border-color: #564186;
+    background-color: #171a1c;
+    border-color: #0c0d0e;
 }
 .btn-purple.disabled:hover, .btn-purple.disabled:focus, .btn-purple.disabled:active, .btn-purple.disabled.active, .btn-purple[disabled]:hover, .btn-purple[disabled]:focus, .btn-purple[disabled]:active, .btn-purple[disabled].active, fieldset[disabled] .btn-purple:hover, fieldset[disabled] .btn-purple:focus, fieldset[disabled] .btn-purple:active, fieldset[disabled] .btn-purple.active {
     color: #fff;
-    background-color: #6c52a8;
-    border-color: #6c52a8;
+    background-color: #23272A;
+    border-color: #23272A;
 }
 
 
@@ -119,7 +119,8 @@
 }
 
 .mastbottom {
-    background: url(./images/tile-bg-head.png) fixed 100% 100% #3C2869;
+    background: rgb(114,0,0);
+    background: linear-gradient(90deg, rgba(114,0,0,1) 10%, rgba(114,137,218,1) 65%);
 }
 
 .mastbottom .call-to-action { 
@@ -127,7 +128,7 @@
 }
 
 .section-pre-footer {
-    background: 0 0 #111111;
+    background: 0 0 #090A0B;
 }
 
 .section-pre-footer .thumb i {
@@ -135,7 +136,7 @@
 }
 
 .section-pre-footer .section-bg {
-    background: 0 0 #141414;
+    background: 0 0 #0E0F11;
 }
 
 footer {
@@ -145,6 +146,20 @@ footer {
 /* ===[ BODY ]=== */
 
     /* ==[ SERVERS ]== */
+
+.servers {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding-bottom: 15px;
+}
+@media (max-width: 800px) {
+    .servers {
+        margin-left: 5px;
+        margin-right: 5px;
+    }  
+}
+
 .section {
     border-radius: 10px;
     font-family: 'Inconsolata', monospace;
@@ -173,6 +188,10 @@ footer {
 
     text-align: center;
     padding-top: 15px;
+}
+
+.server-map {
+    word-wrap: break-word;
 }
 
 .csgo {
