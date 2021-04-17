@@ -46,6 +46,20 @@
     border-color: #23272A;
 }
 
+/* ==[ FANCY TOPIC LOADER ]== */
+
+.blog-meta {
+    background-color: #720000;
+}
+
+h6 a {
+    font-family: 'Inconsolata', monospace;
+}
+
+.panel-post .panel-bottom {
+    background-color: #720000;
+}
+
 
 /* ==[ NAVIGATION BAR ]== */
 
